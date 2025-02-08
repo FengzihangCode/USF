@@ -1,0 +1,57 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "USF (Universal Schedule Format)",
+    "description": "A compact universal schedule format optimized for efficiency",
+    "type": "object",
+    "properties": {
+        "version": {
+            "type": "integer",
+            "enum": [3],
+            "description": "USF version (currently must be 3)"
+        },
+        "subjects": {
+            "type": "object",
+            "description": "List of subjects with optional teacher and room info",
+            "patternProperties": {
+                ".*": {
+                    "type": "object",
+                    "properties": {
+                        "teacher": { "type": "string" },
+                        "room": { "type": "string" }
+                    },
+                    "additionalProperties": false
+                }
+            }
+        },
+        "periods": {
+            "type": "array",
+            "description": "Time periods for classes",
+            "items": {
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "pattern": "^(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]$"
+                },
+                "minItems": 2,
+                "maxItems": 2
+            }
+        },
+        "timetable": {
+            "type": "array",
+            "description": "Schedule entries in the format [day, week type, subject, period]",
+            "items": {
+                "type": "array",
+                "items": [
+                    { "type": "integer", "minimum": 1, "maximum": 7, "description": "Weekday (1=Monday, 7=Sunday)" },
+                    { "type": "integer", "minimum": 0, "maximum": 2, "description": "Week type (0=every week, 1=odd weeks, 2=even weeks)" },
+                    { "type": "string", "description": "Subject name, must match keys in subjects" },
+                    { "type": "integer", "minimum": 0, "description": "Period index, referencing periods array" }
+                ],
+                "minItems": 4,
+                "maxItems": 4
+            }
+        }
+    },
+    "required": ["version", "subjects", "periods", "timetable"],
+    "additionalProperties": false
+}
