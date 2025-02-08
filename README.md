@@ -1,6 +1,6 @@
 # USF - Universal Schedule Format
 
-USF（Universal Schedule Format）是一种高效的课程表数据格式，旨在减少高效精简而又支持课程名称、教师、教室、时间段和单双周规则的使用
+USF（Universal Schedule Format）是一种高效的课程表数据格式，旨在高效精简的同时又支持课程名称、教师、教室、时间段和单双周规则的使用
 
 ## 特点
 
