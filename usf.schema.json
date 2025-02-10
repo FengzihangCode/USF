@@ -1,13 +1,12 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Universal Schedule Format (USF)",
     "description": "A compact and efficient format for storing school schedules.",
     "type": "object",
     "properties": {
         "version": {
             "type": "integer",
-            "enum": [1],
-            "description": "USF version, currently fixed at 1."
+            "description": "USF version"
         },
         "subjects": {
             "type": "object",
