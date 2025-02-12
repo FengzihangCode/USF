@@ -14,3 +14,9 @@ USF（Universal Schedule Format）是一种高效的课程表数据格式，旨�
 
 ## 格式
 USF 文件采用 UTF-8 编码格式
+
+## 自动补全
+### Visual Studio
+安装 "JSON Schema" 扩展并导入 [Schema](https://raw.githubusercontent.com/USF-org/USF/refs/heads/main/usf.schema.json)
+### JetBrains
+从 [JSON Schema Store](https://www.schemastore.org/json/) 获取（`# $schema: USF`）
