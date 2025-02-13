@@ -1,4 +1,5 @@
 <image src="https://github.com/user-attachments/assets/563db63c-954f-4d47-839e-c475d88ab7fc" height="128"/>
+
 语言：简体中文｜<a href="./README_en.md">English</a>
 
 # USF - 通用课程表格式
