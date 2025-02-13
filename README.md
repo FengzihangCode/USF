@@ -10,7 +10,7 @@ USF（Universal Schedule Format）是一种高效的课程表数据格式，旨�
 
 ✅ 支持单双周：可设置课程的单双周规则
 
-✅ 自动补全：可在 VS Code 自动代码补全
+✅ 自动补全：可在 VS Code 与 JetBrains 系列 IDE 中开启自动代码补全
 
 ## 格式
 USF 文件采用 UTF-8 编码格式
