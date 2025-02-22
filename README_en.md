@@ -21,6 +21,17 @@ USF files are encoded in UTF-8 format.
 
 ## Autocomplete
 ### Visual Studio
+#### Import
 Install "JSON Schema" extension and import [Schema](https://raw.githubusercontent.com/USF-org/USF/refs/heads/main/usf.schema.json)
+
+Or import by following steps
+
+![VSCodeDemo](https://github.com/user-attachments/assets/5df5f3e5-a471-439b-8690-5ef8b74a7c5e)
+
 ### JetBrains
-Get from [JSON Schema Store](https://www.schemastore.org/json/) (`# $schema: USF`)
+#### Use $schema Keyword
+Type `# $schema: USF` at the top of the file to enable autocomplete
+
+![JetBrainsDemo](https://github.com/user-attachments/assets/3e831b42-3e03-403c-a100-d87605e03393)
+
+See Also [Use $schema keyword](https://www.jetbrains.com/help/idea/yaml.html#use-schema-keyword)
