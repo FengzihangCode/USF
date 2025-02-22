@@ -21,11 +21,18 @@ USF 文件采用 UTF-8 编码格式
 
 ## 自动补全
 ### Visual Studio
+#### 导入
 安装 "JSON Schema" 扩展并导入 [Schema](https://raw.githubusercontent.com/USF-org/USF/refs/heads/main/usf.schema.json)
+
+或通过如下方式导入
+
+![VSCodeDemo](https://github.com/user-attachments/assets/5df5f3e5-a471-439b-8690-5ef8b74a7c5e)
+
 ### JetBrains
 #### 使用 $schema 关键字
 在文件顶部，输入`# $schema: USF`即可正常使用
 
-![JetBrains](https://github.com/user-attachments/assets/81c5e5e4-def7-4edd-9d03-373cd5b77347)
+![JetBrainsDemo](https://github.com/user-attachments/assets/3e831b42-3e03-403c-a100-d87605e03393)
+
 
 也可参考 [Use $schema keyword](https://www.jetbrains.com/help/idea/yaml.html#use-schema-keyword)
