@@ -25,7 +25,5 @@ USF 文件采用 UTF-8 编码格式
 ### JetBrains
 #### 使用 $schema 关键字
 在文件顶部，输入`# $schema: USF`即可正常使用
-从 [JSON Schema Store](https://www.schemastore.org/json/) 获取
-演示视频：
-https://github.com/user-attachments/assets/5923dfb8-0ca3-4765-a1d8-549d4cd45f34
-
+![JetBrains](https://github.com/user-attachments/assets/5ebf8f3f-7991-4f9f-bdda-4c10106d40ba)
+也从 [JSON Schema Store](https://www.schemastore.org/json/) 获取
