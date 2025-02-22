@@ -28,4 +28,4 @@ USF 文件采用 UTF-8 编码格式
 
 ![JetBrains](https://github.com/user-attachments/assets/81c5e5e4-def7-4edd-9d03-373cd5b77347)
 
-也可从 [JSON Schema Store](https://www.schemastore.org/json/) 获取
+也可参考 [Use $schema keyword](https://www.jetbrains.com/help/idea/yaml.html#use-schema-keyword)
